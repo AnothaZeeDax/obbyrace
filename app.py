@@ -12,7 +12,7 @@ def home():
     # The HTML will automatically generate a sleek card for each developer added here
     developers = ["Amos_bad", "ZeeDax", "Dumphy", "Gakas", "rixze", "Jolly_lazydev1", "-Space-", "Afan kamaran"]
 
-    return render_template('index.html', owner=website_owner, devs=developers)
+    return render_template('index.html/templates', owner=website_owner, devs=developers)
 
 
 if __name__ == '__main__':
